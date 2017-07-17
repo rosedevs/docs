@@ -11,7 +11,7 @@ print(yourValue.ClassName.." - "..yourValue.Value)
 ```
 
 __game:GetService(string servicename)__
-_Instance - Get service by name_
+_DataModel - Get service by name_
 ```lua
 local players = game:GetService("Players")
 if players ~= nil then
@@ -68,7 +68,7 @@ part:ClearAllChildren()
 print("Part has " .. #part:GetChildren() .. " children")
 ```
 
-__game:GetService("Players"):GetPlayers()__
+__Players:GetPlayers()__
 _Table - Returns all the players in your game_
 ```lua
 local players = game:GetService("Players")
@@ -81,7 +81,7 @@ for i,v in pairs(players:GetPlayers()) do
 end
 ```
 
-__game:GetService("Players"):GetGuests()__
+__Players:GetGuests()__
 _Table - Returns all the guests in your game_
 ```lua
 local players = game:GetService("Players")
@@ -94,7 +94,7 @@ for i,v in pairs(players:GetGuests()) do
 end
 ```
 
-__game:GetService("Players"):Find(string player)__
+__Players:Find(string player)__
 _Table - Find the player by a shortname_
 ```lua
 local players = game:GetService("Players")
