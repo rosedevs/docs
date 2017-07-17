@@ -3,6 +3,13 @@
 Please remember this is __limited__ execution, meaning it can be **very** unstable at points.
 At the moment we can only fetch values, and use class functions which will be documented below.
 
+__Fetching Values__
+_Bool/String/Int/Number Values_
+```lua
+local yourValue = game.Workspace.Example
+print(yourValue.ClassName.." - "..yourValue.Value)
+```
+
 __game:GetService(string servicename)__
 _Instance - Get service by name_
 ```lua
