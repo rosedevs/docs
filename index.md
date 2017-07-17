@@ -99,7 +99,7 @@ _Table - Find the player by a shortname_
 ```lua
 local players = game:GetService("Players")
 local me = players:Find("example")
-if me ~= nil then
+if me[1] ~= nil then
   print(me.Name)
 end
 ```
