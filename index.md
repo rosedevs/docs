@@ -8,21 +8,15 @@ At the moment we can only fetch values, and use class functions which will be do
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+### game.Players:GetPlayers
+__table GetPlayers()__
+Return a table with players
 
-# Header 1
-## Header 2
-### Header 3
+### game.Players:GetGuests
+__table GetGuests()__
+Return a table with guests in your game
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
