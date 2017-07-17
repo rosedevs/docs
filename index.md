@@ -10,7 +10,7 @@ local yourValue = game.Workspace.Example
 print(yourValue.ClassName.." - "..yourValue.Value)
 ```
 
-__game:GetService(string servicename)__
+__DataModel:GetService(string servicename)__
 _DataModel - Get service by name_
 ```lua
 local players = game:GetService("Players")
