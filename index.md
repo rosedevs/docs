@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Rose Wrapper Documentation
 
-You can use the [editor on GitHub](https://github.com/rosedevs/docs/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Please remember this is __limited__ execution, meaning it can be **very** unstable at points.
+At the moment we can only fetch values, and use class functions which will be documented below.
 
 ### Markdown
 
