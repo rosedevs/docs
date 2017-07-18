@@ -103,3 +103,9 @@ if me[1] ~= nil then
   print(me.Name)
 end
 ```
+__Players:GetChildren()__
+_Table - Returns all the Players in your game_
+```lua
+for i,v in pairs(game.Players:GetChildren())
+do print(v.Name)
+end```
