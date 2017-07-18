@@ -108,4 +108,5 @@ _Table - Returns all the Players in your game_
 ```lua
 for i,v in pairs(game.Players:GetChildren())
 do print(v.Name)
-end```
+end
+```
