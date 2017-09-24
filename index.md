@@ -103,3 +103,9 @@ if me[1] ~= nil then
   print(me.Name)
 end
 ```
+
+__Setting Values__
+_Gravity - Set the gravity of the workspace_
+```lua
+game.Workspace.Gravity = 20
+```
